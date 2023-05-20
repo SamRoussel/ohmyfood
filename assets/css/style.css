@@ -515,7 +515,7 @@ footer > ul > li > a > i {
 
 /***** Desktop *****/
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
     body {
         max-width: 1440px;
     }
@@ -544,7 +544,20 @@ footer > ul > li > a > i {
     }
     
     .section-restaurant {
-        padding: 54px 0 64px 193px;
+        padding-left: 193px;
+        padding-right: 180px;
+    }
+
+    .menu-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .card {
+        width: 45%;
     }
 
     .image-menu {
